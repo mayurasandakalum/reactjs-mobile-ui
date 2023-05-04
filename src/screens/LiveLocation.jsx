@@ -19,7 +19,7 @@ const LiveLocation = () => {
     <div>
       <div>Loaded: {loaded.toString()}</div>
       <div>coordinates: {JSON.stringify(coordinates)}</div>
-      <div>error: {error}</div>
+      <div>errors: {error}</div>
     </div>
   );
 };
