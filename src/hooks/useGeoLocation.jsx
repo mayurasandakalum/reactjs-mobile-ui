@@ -34,7 +34,7 @@ const useGeoLocation = (frequency = 10000) => {
     } else {
       watcher = navigator.geolocation.watchPosition(onSuccess, onError, {
         enableHighAccuracy: true,
-        timeout: 5000,
+        // timeout: 5000,
         maximumAge: frequency,
       });
     }
